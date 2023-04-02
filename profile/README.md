@@ -6,6 +6,6 @@ Aim of this is to create friendly ui that will deploy and create linode engine, 
 
 💡 Kubernetes Scripts - Repository responsible for keeping track of kubernetes yamls, installation shell scripts and other important config like TLS. Basically entry point for running the app \
 🚌 Gateway            - This is service responsible for receiving requests and forwarding it to other proper services. \
-🏭 Instances          - Code responsible for keeping track of data and handling requests about creation, deletion and edition of instances that are deployed
+🏭 Instances          - Code responsible for keeping track of data and handling requests about creation, deletion and edition of instances that are deployed \
 🔌 Linode Services    - Node service that takes prepared requests and deploys linode instances with linode api. Part mostly unfinished yet
 
