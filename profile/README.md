@@ -6,8 +6,11 @@ Aim of this is to create friendly ui that will deploy and create linode engine, 
 
 All app is cloud enabled, works well with RKE, LKE, Minikube.
 
-It is using Istio gateway that manages TLS at the same time, postgresql to handle reactive data. \
+It is using Istio gateway that manages TLS at the same time, postgresql to handle reactive data. 
+
 Plans are to use Keycloak as auth service, kafka as messaging broker for status reports between the services, and react backed frontend.
+
+
 
 Plan is to make it fully working by end of 2023.
 
