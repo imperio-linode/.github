@@ -6,6 +6,10 @@ Aim of this is to create friendly ui that will deploy and create linode engine, 
 
 All app is cloud enabled, works well with RKE, LKE, Minikube.
 
+It is using Istio gateway that manages TLS at the same time, postgresql to handle reactive data and will use Keycloak as auth service and kafka as messaging broker for status reports between the services and react backed frontend.
+
+Plan is to make it fully working by end of 2023.
+
 💡 Kubernetes Scripts - Repository responsible for keeping track of kubernetes yamls, installation shell scripts and other important config like TLS. Basically entry point for running the app \
 🚌 Gateway            - This is service responsible for receiving requests and forwarding it to other proper services. \
 🏭 Instances          - Code responsible for keeping track of data and handling requests about creation, deletion and edition of instances that are deployed \
